@@ -1,6 +1,6 @@
 Todos.Store = DS.Store.extend({
-	revision: 12,
-	adapter: 'Todos.LSAdapter'
+	adapter: 'Todos.LSAdapter',
+	revision: 12
 });
 
 Todos.LSAdapter = DS.LSAdapter.extend({
